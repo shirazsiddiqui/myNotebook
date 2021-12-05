@@ -22,7 +22,7 @@ function Signup(props) {
             // Save the auth token and redirect
             localStorage.setItem('token', json.authtoken); 
             history.push("/");
-            props.showAlert("Account created successfully","danger");
+            props.showAlert("Account created successfully","success");
 
         }
         else{
